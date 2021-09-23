@@ -1,2 +1,4 @@
-# Project exclude paths
-/.gradle/
+# Create by .ignore support plugin
+
+.gradle
+.idea
