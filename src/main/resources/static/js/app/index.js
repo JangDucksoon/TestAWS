@@ -49,11 +49,6 @@ var main = {
             content : $("#content").val()
         };
 
-        if (data.title == oriTitle && data.content == oriContent) {
-            alert("변경된 내용이 없습니다.");
-            return;
-        }
-
         if (!confirm("정말로 수정하시겠습니까?")) {
             return;
         }
